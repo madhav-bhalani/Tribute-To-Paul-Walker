@@ -1,0 +1,120 @@
+body {
+  background-color: rgba(255,255,255,0.6);
+  background-image: url("paulbg.jpg");
+  background-blend-mode: lighten;
+}
+
+.img1 {
+  height: 50%;
+  width: 45%;
+  border-radius: 15px;
+  box-shadow: 10px 10px 8px rgb(145, 142, 142);
+}
+
+.quote1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  font-weight: bolder;
+  text-shadow: rgb(125, 117, 105);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-auto-columns: auto;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-radius: 10px;
+}
+
+.container > div {
+  padding: 10px;
+}
+
+
+.timeline {
+  font-size: 40px;
+  color: black;
+  text-align: left;
+  margin-left: 500px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-shadow: rgb(125, 117, 105);
+}
+
+.incontainer {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  border-radius: 10px;
+}
+
+.incontainer > div {
+  background-color: rgb(187, 198, 238);
+  padding: 10px;
+}
+
+.incontainer > div:nth-child(odd) {
+  background-color: rgb(181, 174, 181);
+}
+
+.timetext {
+  border-bottom: 1px solid black;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.img2{
+    border-radius: 15px;
+    height: 40%;
+    width: 100%;
+}
+
+.bio{
+    background-color: beige;
+    background-blend-mode: lighten;
+}
+
+.head{
+    font-size: 50px;
+    font-family: 'Yellowtail', cursive;
+}
+
+/* .material-icons.md-48 { font-size: 50px; } */
+
+.cont2 {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+
+.cont2 > div {
+  background-color: rgb(187, 198, 238);
+  padding: 5px;
+}
+
+.cont2 > div:nth-child(odd) {
+  background-color: rgb(210, 203, 210);
+}
+
+.sign{
+  height: 10%;
+  width: 50%;
+}
+
+.foot{
+  height: 300px;
+  background-color:  rgba(176, 164, 164, 0.6);
+  background-blend-mode: lighten;
+  margin-top: 10px;
+  margin-left: 310px;
+  margin-right: 300px;
+  border-radius: 15px;
+}
+
+.quote2{
+    font-family: "Oswald", sans-serif;
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: rgb(125, 117, 105);
+}
